@@ -8,3 +8,32 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+env/
+
+# Genesis-specific files
+samples/videos/
+*.mp4
+*.avi
+*.mov
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# GPU cache files
+*.cache
